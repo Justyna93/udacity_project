@@ -1,0 +1,60 @@
+body {
+	background-color: #ffdd99;
+}
+
+h1 {
+	text-align: center;
+	font-family: Monoton;
+	font-size: 60px;
+	margin-bottom: 20px;
+}
+
+hr {
+	width: 80%;
+	color: black;
+}
+
+.field input {
+	width: 60px;
+}
+
+.field span {
+	display: inline-block;
+	width: 90px;
+}
+
+h2 {
+	font-style: italic;
+}
+
+#grid-table {
+	border-collapse: collapse;
+	user-select: none;
+}
+
+#grid-table td {
+	border: 1px solid black;
+	width: 20px;
+	height: 20px;
+}
+
+.field {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#pick-color-text {
+	margin-top: 50px;
+}
+
+#parent-box {
+	display: flex;
+	margin: 60px;
+}
+
+#config {
+	flex: 2;
+}
+
+#painting {
+	flex: 5;
+}
